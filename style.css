@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("images/bg.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.about {
+  padding-top: 15px;
+  text-align: center;
+  color: #212529;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: inherit;
+}
+
+ul {
+  margin-left: 8%;
+}
+
+#mainPlace {
+  height: 320px;
+  opacity: 0.6;
+}
+
+#mainTitle {
+  padding-top: 40px;
+  text-align: center;
+}
+
+#titleDesc {
+  text-align: center;
+}
+
+figcaption {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#parBg {
+  background-color: #212529;
+  opacity: 60%;
+  width: 100%;
+}
+#parBg2 {
+  background-color: white;
+  opacity: 60%;
+  width: 100%;
+}
+#parBg3 {
+  background-color: #212529;
+  opacity: 60%;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#firstPar {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  opacity: 1 !important;
+}
+
+#firstPar2 {
+  color: #212529;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  opacity: 1 !important;
+}
+
+.contact {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+#subject {
+  float: right;
+}
+
+.fname,
+.lname {
+  color: white;
+}
+
+.submitB {
+  margin-bottom: 20px;
+}

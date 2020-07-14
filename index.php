@@ -133,7 +133,7 @@ include_once 'inc/signup.inc.php';
       <h2 class="contact">Add</h2>
 
       <div class="container">
-        <form action="signup.inc.php" method="POST">
+        <form action="inc/signup.inc.php" method="POST">
 
           <label class="fname">First Name</label></br>
           <input type="text" id="fname" name="firstname" placeholder="First name.."></br>
@@ -148,7 +148,7 @@ include_once 'inc/signup.inc.php';
           <label class="age">Age</label></br>
           <input type="text" id="age" name="age" placeholder="Age.."></br>
           </br>
-          <input type="submit" value="Submit" class="submitB">
+          <input type="submit" name="submit" value="Submit" class="submitB">
 
         </form>
       </div>

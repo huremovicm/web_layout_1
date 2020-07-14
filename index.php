@@ -1,3 +1,10 @@
+<?php
+
+include_once 'inc/signup.inc.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -126,7 +133,7 @@
       <h2 class="contact">Add</h2>
 
       <div class="container">
-        <form action="index.php" method="POST">
+        <form action="signup.inc.php" method="POST">
 
           <label class="fname">First Name</label></br>
           <input type="text" id="fname" name="firstname" placeholder="First name.."></br>

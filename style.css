@@ -10,13 +10,13 @@ body {
   background-size: cover;
 }
 
-.navbar{
+.navbar {
   position: fixed;
   width: 100%;
   z-index: 100;
 }
 
-.navbar-custom1{
+.navbar-custom1 {
   background: #204051;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 a:hover {
   color: white;
-  text-shadow:0px 0px 30px white;
+  text-shadow: 0px 0px 30px white;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -52,11 +52,10 @@ ul {
   color: #111d5e;
 }
 
-h6
-{
+h6 {
   color: #204051;
 }
-.e1{
+.e1 {
   display: block;
   background: #111d5e;
   width: 100%;
@@ -64,7 +63,7 @@ h6
   color: white;
 }
 
-.e2{
+.e2 {
   display: block;
   background: #c70039;
   width: 100%;
@@ -72,7 +71,7 @@ h6
   color: white;
 }
 
-.e3{
+.e3 {
   display: block;
   background: #f37121;
   width: 100%;
@@ -80,7 +79,7 @@ h6
   color: white;
 }
 
-.e4{
+.e4 {
   display: block;
   background: #14b1ab;
   width: 100%;
@@ -88,7 +87,7 @@ h6
   color: white;
 }
 
-.e5{
+.e5 {
   display: block;
   background: #9bdeac;
   width: 100%;
@@ -145,14 +144,12 @@ figcaption {
   color: white;
 }
 
-#subject{
-
-    width: 400px;
-    height: 300px;
-
+#subject {
+  width: 400px;
+  height: 300px;
 }
 
-#logo{
+#logo {
   width: 7%;
 }
 
@@ -168,4 +165,28 @@ figcaption {
 .submitB {
   margin-bottom: 20px;
   color: #111d5e;
+}
+
+.navbar {
+  padding: 0%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  #logo {
+    display: none;
+  }
+}
+
+a.nav-link {
+  padding-bottom: 1rem;
+  padding-top: 1.2rem;
+}
+
+.navbar-nav li > a:hover,
+.navbar-nav li > a:focus,
+.navbar-nav li.active {
+  background-color: #89a4ad;
 }

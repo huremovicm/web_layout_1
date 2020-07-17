@@ -12,8 +12,10 @@ include_once 'inc/signup.inc.php';
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
+
     <title>Test Page!</title>
 </head>
 
@@ -27,14 +29,14 @@ include_once 'inc/signup.inc.php';
             <img id="logo" src="images/logo.png" alt="logo">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#parBg">Home</a>
+                    <li class="nav-item " id="#home">
+                        <a class="nav-link" href="#" data-page="parBg">Home</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#parBg2">About</a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#" data-page="parBg2">About</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#parBg3">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="parBg3">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,6 +51,7 @@ include_once 'inc/signup.inc.php';
             <p class="lead" id="titleDesc">This Is Example of Webpage Layout!</p>
         </div>
     </div>
+
 
     <div id="parBg">
         <div class="container text-center">
@@ -95,6 +98,7 @@ include_once 'inc/signup.inc.php';
             </div>
         </div>
     </div>
+    <div id="about"></div>
 
     <div id="parBg2">
         <div class="container text-center">
@@ -191,6 +195,9 @@ include_once 'inc/signup.inc.php';
         </div>
     </div>
 
+
 </body>
+<script type="text/javascript" src="script.js"></script>
+
 
 </html>

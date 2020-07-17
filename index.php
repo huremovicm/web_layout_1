@@ -25,7 +25,7 @@ include_once 'inc/signup.inc.php';
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#parBg">Home</a>
                 </li>
@@ -36,10 +36,6 @@ include_once 'inc/signup.inc.php';
                     <a class="nav-link" href="#parBg3">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
 
@@ -167,6 +163,11 @@ include_once 'inc/signup.inc.php';
                     <label class="age">Age</label></br>
                     <input type="text" id="age" name="age" placeholder="Age.."></br>
                     </br>
+
+                    <label class="email">Email</label></br>
+                    <input type="text" id="email" name="email" placeholder="Email.."></br>
+                    </br>
+
 
                     <label class="country">Country</label></br>
                     <select id="country" name="country">

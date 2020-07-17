@@ -156,7 +156,8 @@ figcaption {
 .age,
 .lname,
 .subject,
-.country {
+.country,
+.email {
   color: white;
 }
 

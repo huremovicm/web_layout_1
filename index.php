@@ -24,20 +24,20 @@ include_once 'inc/signup.inc.php';
             <span class="navbar-toggler-icon"></span>
         </button>
         <a href="index.php">
-      <img id="logo" src="images/logo.png" alt="logo" >
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#parBg">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#parBg2">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#parBg3">Contact</a>
-                </li>
-            </ul>
-        </div>
+            <img id="logo" src="images/logo.png" alt="logo">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#parBg">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#parBg2">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#parBg3">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
 
     <div class="jumbotron jumbotron-fluid" id="mainPlace">

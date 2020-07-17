@@ -144,13 +144,19 @@ figcaption {
   text-align: center;
   color: white;
 }
-#subject {
-  float: right;
+
+#subject{
+
+    width: 400px;
+    height: 300px;
+
 }
 
 .fname,
 .age,
-.lname {
+.lname,
+.subject,
+.country {
   color: white;
 }
 

@@ -30,7 +30,7 @@ include_once 'inc/signup.inc.php';
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item " id="#home">
-                        <a class="nav-link" href="#" data-page="parBg">Home</a>
+                        <a class="nav-link" href="#" data-page="mainPlace">Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#" data-page="parBg2">About</a>

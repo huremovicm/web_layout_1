@@ -18,21 +18,22 @@ include_once 'inc/signup.inc.php';
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-custom1">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom1">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+        <a href="index.php">
+      <img id="logo" src="images/logo.png" alt="logo" >
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#parBg">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#parBg2">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="#parBg3">Contact</a>
                 </li>
             </ul>
@@ -174,7 +175,7 @@ include_once 'inc/signup.inc.php';
                         <option value="australia">Australia</option>
                         <option value="canada">Canada</option>
                         <option value="usa">USA</option>
-                        <option value="usa">BiH</option>
+                        <option value="bih">BiH</option>
                     </select></br>
 
                     </br>

@@ -12,8 +12,6 @@ include_once 'inc/signup.inc.php';
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
     <link rel="stylesheet" href="style.css">
 
     <title>Test Page!</title>
@@ -30,13 +28,13 @@ include_once 'inc/signup.inc.php';
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item " id="#home">
-                        <a class="nav-link" href="#" data-page="mainPlace">Home</a>
+                        <a class="nav-link first activeL" href="#titleDesc">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#" data-page="parBg2">About</a>
+                        <a class="nav-link second" href="#parBg2">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-page="parBg3">Contact</a>
+                        <a class="nav-link third" href="#parBg3">Contact</a>
                     </li>
                 </ul>
             </div>

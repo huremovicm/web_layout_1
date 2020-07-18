@@ -10,6 +10,10 @@ body {
   background-size: cover;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -185,8 +189,6 @@ a.nav-link {
   padding-top: 1.2rem;
 }
 
-.navbar-nav li > a:hover,
-.navbar-nav li > a:focus,
-.navbar-nav li.active {
+.activeL {
   background-color: #89a4ad;
 }

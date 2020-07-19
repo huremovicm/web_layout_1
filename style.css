@@ -182,6 +182,10 @@ figcaption {
   #logo {
     display: none;
   }
+
+  li {
+    background-color: #204051;
+  }
 }
 
 a.nav-link {
